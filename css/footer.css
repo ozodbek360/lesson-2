@@ -116,3 +116,353 @@
   color: #ff5a30;
   margin: 0 5px;
 }
+
+@media screen and (min-width: 0) and (max-width: 447px) {
+  .footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e212c;
+    padding: 10px 10px;
+  }
+  .footer .logos {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+  }
+  .footer .logos .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer .logos .icons .brands {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .footer .logos .icons .brands ul {
+    display: flex;
+    gap: 18px;
+  }
+  .footer .logos .icons .brands ul li {
+    font-size: 24px;
+  }
+  .footer .logos .icons .brands ul li a {
+    color: #a5a6ab;
+  }
+  .footer .logos .icons .text {
+    margin-top: 20px;
+    color: #787a80;
+    display: flex;
+    text-align: left;
+  }
+  .footer .logos .search {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer .logos .search h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer .logos .search .btn {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 0;
+    margin-top: 0;
+  }
+  .footer .logos .search .btn input {
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #787a80;
+  }
+  .footer .logos .search .btn button {
+    background-color: #ff5a30;
+    color: white;
+    width: 90px;
+    border: none;
+  }
+  .footer .texts {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer .texts ul {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787a80;
+  }
+  .footer .texts ul :first-child {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: left;
+  }
+  .footer h2 {
+    margin-top: 25px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787a80;
+  }
+  .footer h2 i {
+    color: #ff5a30;
+    margin: 0 5px;
+  }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e212c;
+    padding: 20px 20px;
+  }
+  .footer .logos {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+  }
+  .footer .logos .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer .logos .icons .brands {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .footer .logos .icons .brands ul {
+    display: flex;
+    gap: 18px;
+  }
+  .footer .logos .icons .brands ul li {
+    font-size: 24px;
+  }
+  .footer .logos .icons .brands ul li a {
+    color: #a5a6ab;
+  }
+  .footer .logos .icons .text {
+    margin-top: 20px;
+    color: #787a80;
+    display: flex;
+    text-align: left;
+  }
+  .footer .logos .search {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer .logos .search h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer .logos .search .btn {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 0;
+    margin-top: 0;
+  }
+  .footer .logos .search .btn input {
+    width: 50%;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #787a80;
+  }
+  .footer .logos .search .btn button {
+    background-color: #ff5a30;
+    color: white;
+    width: 90px;
+    border: none;
+  }
+  .footer .texts {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer .texts ul {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787a80;
+  }
+  .footer .texts ul :first-child {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: left;
+  }
+  .footer h2 {
+    margin-top: 25px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787a80;
+  }
+  .footer h2 i {
+    color: #ff5a30;
+    margin: 0 5px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .footer {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e212c;
+    padding: 20px 20px;
+  }
+  .footer .logos {
+    width: 90%;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+  }
+  .footer .logos .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer .logos .icons .brands {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .footer .logos .icons .brands ul {
+    display: flex;
+    gap: 18px;
+  }
+  .footer .logos .icons .brands ul li {
+    font-size: 24px;
+  }
+  .footer .logos .icons .brands ul li a {
+    color: #a5a6ab;
+  }
+  .footer .logos .icons .text {
+    margin-top: 20px;
+    color: #787a80;
+    display: flex;
+    text-align: left;
+  }
+  .footer .logos .search {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .footer .logos .search h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer .logos .search .btn {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 0;
+    margin-top: 0;
+  }
+  .footer .logos .search .btn input {
+    width: 55%;
+    height: 44px;
+    background-color: transparent;
+    border: 1px solid #787a80;
+  }
+  .footer .logos .search .btn button {
+    background-color: #ff5a30;
+    color: white;
+    width: 90px;
+    border: none;
+  }
+  .footer .texts {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer .texts ul {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787a80;
+  }
+  .footer .texts ul :first-child {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: left;
+  }
+  .footer h2 {
+    margin-top: 25px;
+    text-align: left;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787a80;
+  }
+  .footer h2 i {
+    color: #ff5a30;
+    margin: 0 5px;
+  }
+}

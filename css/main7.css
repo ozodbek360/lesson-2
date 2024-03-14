@@ -38,3 +38,109 @@
 .main7 .logos img:hover {
   box-shadow: 1px 2px 2px 4px #b7b3b3;
 }
+
+@media screen and (min-width: 0) and (max-width: 447px) {
+  .main7 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .main7 .title {
+    width: 100%;
+  }
+  .main7 .title h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1e212c;
+  }
+  .main7 .logos {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main7 .logos img {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .main7 .logos img:hover {
+    box-shadow: 1px 2px 2px 4px #b7b3b3;
+  }
+}
+@media screen and (min-width: 447px) and (max-width: 769px) {
+  .main7 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .main7 .title {
+    width: 100%;
+  }
+  .main7 .title h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1e212c;
+  }
+  .main7 .logos {
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main7 .logos img {
+    width: 30%;
+    margin: 10px auto;
+  }
+  .main7 .logos img:hover {
+    box-shadow: 1px 2px 2px 4px #b7b3b3;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .main7 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .main7 .title {
+    width: 100%;
+  }
+  .main7 .title h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1e212c;
+  }
+  .main7 .logos {
+    margin-top: 38px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main7 .logos img {
+    width: 28%;
+    margin: 10px auto;
+  }
+  .main7 .logos img:hover {
+    box-shadow: 1px 2px 2px 4px #b7b3b3;
+  }
+}
