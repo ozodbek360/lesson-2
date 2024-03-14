@@ -3,13 +3,11 @@ import "/css/navbar.css";
 let bars =document.querySelector(".fa-bars")
 let active=document.querySelector(".active")
 
-bars.onclick=()=>{
-  active.classList.toggle("show")
- 
-
+// bars.onclick=()=>{
+//   active.classList.toggle("show")
   
 
-}
+// }
 
 const Navbar = () => {
   return (
