@@ -1,5 +1,15 @@
 import { Link } from "react-router-dom";
 import "/css/navbar.css";
+let bars =document.querySelector(".fa-bars")
+let active=document.querySelector(".active")
+
+bars.onclick=()=>{
+  active.classList.toggle("show")
+ 
+
+  
+
+}
 
 const Navbar = () => {
   return (
@@ -57,23 +67,32 @@ const Navbar = () => {
         <i class="fa-solid fa-bars"></i>
       </div>
       <div className="active">
-        <ul>
-          <li>
-            <a href="#">About Us</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Work</a>
-          </li>
-          <li>
-            <a href="#">News</a>
-          </li>
-          <li>
-            <a href="#">Contacts</a>
-          </li>
-        </ul>
+      <ul>
+        <li>
+       
+          <Link to={"/Main2"} >About Us</Link>
+        </li>
+        <li>
+       
+          <Link to={"/Main5"} >Services</Link>
+
+        </li>
+        <li>
+          
+          <Link to={"/Main7"} >Work</Link>
+
+        </li>
+        <li>
+          
+          <Link to={"/Main3"} >News</Link>
+
+        </li>
+        <li>
+          
+          <Link to={"/Main4"} >Contacts</Link>
+
+        </li>
+      </ul>
       </div>
     </div>
   );
