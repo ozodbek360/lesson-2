@@ -15,6 +15,7 @@ import Footer from './components/footer/footer'
 
 function App() {
   const [count, setCount] = useState(0)
+  
 
   return (
     <BrowserRouter>
